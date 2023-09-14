@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(233, 128, 102);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 202, 245);
+    border: 1px solid balck;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  } 
